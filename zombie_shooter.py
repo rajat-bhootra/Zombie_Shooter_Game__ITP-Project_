@@ -15,37 +15,37 @@ score = 0
 
 screen = pygame.display.set_mode((width,height))
 pygame.display.set_caption('ZOMBIE SHOOTER')
-game_logo  = pygame.image.load('ITP_project/graphics/game icon.png')
+game_logo  = pygame.image.load('graphics/game icon.png')
 pygame.display.set_icon(game_logo)
 clock = pygame.time.Clock()
 #font
-font  = pygame.font.Font('ITP_project/go3v2.ttf',30)
+font  = pygame.font.Font('go3v2.ttf',30)
 #graphics
 line = pygame.Rect(0,height-150,width,2)
 box = pygame.Rect(150,435,200,50)
-game_screen = pygame.image.load('ITP_project/graphics/background 2.png')
+game_screen = pygame.image.load('graphics/background 2.png')
 game_screen = pygame.transform.scale(game_screen,(width,height))
-loading_screen = pygame.image.load('ITP_project/graphics/loading screen .png')
+loading_screen = pygame.image.load('graphics/loading screen .png')
 loading_screen = pygame.transform.scale(loading_screen,(width,height))
-loading_screen1 = pygame.image.load('ITP_project/graphics/loading screen 1 .png')
+loading_screen1 = pygame.image.load('graphics/loading screen 1 .png')
 loading_screen1 = pygame.transform.scale(loading_screen1,(width,height))
-loading_screen2 = pygame.image.load('ITP_project/graphics/loading screen 2.png')
+loading_screen2 = pygame.image.load('graphics/loading screen 2.png')
 loading_screen2 = pygame.transform.scale(loading_screen2,(width,height))
-background = pygame.image.load('ITP_project/graphics/game background 2.jpg')
+background = pygame.image.load('graphics/game background 2.jpg')
 background = pygame.transform.scale(background,(width,height))
-shooter_image = pygame.image.load('ITP_project/graphics/player pistol.gif')
+shooter_image = pygame.image.load('graphics/player pistol.gif')
 shooter_image = pygame.transform.scale(shooter_image,(75,75))
-zombie1_image = pygame.image.load('ITP_project/graphics/zombie 1.png')
+zombie1_image = pygame.image.load('graphics/zombie 1.png')
 zombie1_image = pygame.transform.scale(zombie1_image,(75,75))
-zombie2_image = pygame.image.load('ITP_project/graphics/zombie 2.png')
+zombie2_image = pygame.image.load('graphics/zombie 2.png')
 zombie2_image = pygame.transform.scale(zombie2_image,(100,40.48))
-zombie3_image = pygame.image.load('ITP_project/graphics/zombie 3.png')
+zombie3_image = pygame.image.load('graphics/zombie 3.png')
 zombie3_image = pygame.transform.scale(zombie3_image,(100,40.48))
-sniper_bullet = pygame.image.load('ITP_project/graphics/sniper bullet.png')
+sniper_bullet = pygame.image.load('graphics/sniper bullet.png')
 sniper_bullet = pygame.transform.scale(sniper_bullet,(7,35))
-pistol_bullet = pygame.image.load('ITP_project/graphics/pistol bullet.png')
+pistol_bullet = pygame.image.load('graphics/pistol bullet.png')
 pistol_bullet = pygame.transform.scale(pistol_bullet,(7,15.55))
-AR_bullet = pygame.image.load('ITP_project/graphics/ar bullet.png')
+AR_bullet = pygame.image.load('graphics/ar bullet.png')
 AR_bullet = pygame.transform.scale(AR_bullet,(7,15.55))
 #player
 shooter = pygame.Rect(width//2-50,height-90,10,10)
@@ -374,7 +374,7 @@ if level2:
    score = 0
 
    #graphics
-   shooter_image = pygame.image.load('ITP_project/graphics/player rifle.png')
+   shooter_image = pygame.image.load('graphics/player rifle.png')
    shooter_image = pygame.transform.scale(shooter_image,(75,75)) 
    #list 
    Bullet2_ = []
@@ -475,7 +475,7 @@ if level3:
    score = 0
 
    #graphics
-   shooter_image = pygame.image.load('ITP_project/graphics/player 1.png')
+   shooter_image = pygame.image.load('graphics/player 1.png')
    shooter_image = pygame.transform.scale(shooter_image,(75,75))
    #list 
    Bullet3_ = []
