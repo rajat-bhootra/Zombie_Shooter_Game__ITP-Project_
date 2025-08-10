@@ -30,7 +30,7 @@
 #### Option B: Clone via Git
 
 ```bash
-git clone https://github.com/YOUR-USERNAME/zombie-shooter.git
+git clone https://github.com/rajat-bhootra/zombie-shooter.git
 cd zombie-shooter
 ```
 ### ✅ Step 2: Install Python and Pygame
